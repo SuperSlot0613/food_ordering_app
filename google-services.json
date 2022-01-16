@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "233202881824",
+    "project_id": "health-monitoring-app-336017",
+    "storage_bucket": "health-monitoring-app-336017.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:233202881824:android:af7a50e94e0bb3aa3df345",
+        "android_client_info": {
+          "package_name": "host.exp.exponent"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "233202881824-pfnc7e3ltdf7nkru586mv5io2br7rkth.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "host.exp.exponent",
+            "certificate_hash": "13a9db89e324470c2bf3bfcbba42b657c795ef34"
+          }
+        },
+        {
+          "client_id": "233202881824-0v73r48rq6ouabmeuld2utv28siigaae.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANiJmhioO4Dj-YVzjTx3VD1eyVxtfxPgo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "233202881824-0v73r48rq6ouabmeuld2utv28siigaae.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "233202881824-67nvvnto8un86a52sa66rcncenel660p.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "host.exp.exponent"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
