@@ -9,8 +9,6 @@
 
 #Watch the video
 
-<img src="video.gif" width="360" height="720">
-
 ## To Run The App On Your Phone Screen
 
 First Download expo go App on your phone than copay the link ![(https://expo.dev/@saurabh0613/soleraLife)] and peast
