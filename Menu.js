@@ -17,6 +17,7 @@ import OnboardingScreen from "./Screens/OnboardingScreen";
 import ProductScreen from "./Screens/ProductScreen";
 import ItemDetails from "./Component/ItemDetails";
 import BuyScreen from "./Screens/BuyScreen"
+import MapScreen from "./Screens/MapScreen";
 
 const { width } = Dimensions.get("screen");
 
@@ -71,6 +72,10 @@ function HomeStack(props) {
           }}
           name="ItemDetails"
           component={ItemDetails}
+        />
+         <Stack.Screen
+          name="MapScreen"
+          component={MapScreen}
         />
     </Stack.Navigator>
   );

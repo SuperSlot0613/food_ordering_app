@@ -1,3 +1,4 @@
+import { useNavigation } from "@react-navigation/native";
 import { Block, theme } from "galio-framework";
 import React from "react";
 import {
@@ -14,6 +15,7 @@ const { width } = Dimensions.get("screen");
 import { selectBasket } from "../feature/navSlice";
 
 const BuyScreen = () => {
+  const navigation = useNavigation();
   const basket = useSelector(selectBasket);
 
   return (
@@ -50,7 +52,10 @@ const BuyScreen = () => {
           />
         </Block>
       </ScrollView>
-      <TouchableOpacity style={{ alignItems: "center" }}>
+      <TouchableOpacity
+        style={{ alignItems: "center" }}
+        onPress={() => navigation.navigate("MapScreen")}
+      >
         <Block
           style={[
             {
